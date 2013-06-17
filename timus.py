@@ -4,5 +4,7 @@ import os
 scriptName, command, argument = argv
 
 if command == 'create':
-	os.makedirs("Timus/%s/" %argument)
-	open("Timus/%s/solution.py" %argument, 'w').close()
+	dirName = "Timus/%s/" %argument
+	os.makedirs(dirName)
+	open("%ssolution.py" %dirName, 'w').close()	
+	open("%sREADME.md" %dirName, 'w').close()

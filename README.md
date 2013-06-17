@@ -1,4 +1,5 @@
-acmtimusru
+ACM solution
 ==========
 
-Solutions for acm.timus.ru
+This project is a collection of solutions of programming contests
+Timus - solutions from acm.timus.ru
